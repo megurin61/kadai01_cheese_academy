@@ -1,0 +1,257 @@
+about-image{
+max-width: 100%;
+height: auto;
+margin-bottom: 20px;
+}
+.title-word{
+    font-size: 48px;
+    color: rgb(56, 42, 177);
+
+}
+
+
+.top{
+  /* ディスプレイフレックスとは横並び */
+  display:flex;
+  /* 均等をスペースを割りする */
+  /*子要素の最初が先頭寄せ・最後が末尾寄せ  */
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+.mainvisual{
+  position: relative;
+}
+
+.mainvisual img{
+  width: 100%;
+  }
+
+
+.mainvisual div {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+   /* 縦並びの中央ぞろえ  ここから */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+/* 縦並びの中央ぞろえここまで */
+  
+
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  /* width:100%; */
+  }
+
+.aboutfarm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.graduation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 21px;
+    justify-content: flex-end;
+
+
+  }
+  .nav-item{
+    margin-right: 50px;
+  }
+  .container1{
+text-align: center;
+  }
+
+h2{
+    color: #ffd61a;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.about{
+  margin-bottom: 60px;
+}
+.Sosite{
+  margin-bottom: 40px;
+}
+.Sonna{
+  margin-bottom: 40px ;
+}
+.Shokunin{
+  margin-bottom: 80px;
+}
+.box{
+    text-align: center;
+}
+.Course{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.Geneki{
+  margin-bottom: 60px;
+}
+
+.course_01{
+display: inline-block;
+vertical-align: top;
+margin-right: 40px;
+width: 40%;
+}
+
+.box1{
+  float: right; 
+ }  
+
+
+.course_02{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 70px;
+  width: 40%;
+  }
+
+
+.box2{
+  justify-content: left;
+  margin-right: 50px;
+margin-top: 120px;
+margin-bottom: 120px;
+}
+
+.course_03{
+  display: inline-block;
+vertical-align: top;
+margin-right: 20px;
+width: 45%;
+}
+
+
+.box3{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.box4{
+  margin-top: 60px;
+}
+
+.NEWS{text-align: center;
+}
+
+.newspic{
+display: inline-block;
+margin-right: 20px;
+margin-left: 50px;
+}
+.news{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.date{
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+
+.More{text-align: center;
+  font-weight: bolder;
+}
+
+.info{
+  display: inline;
+
+}
+
+.table{
+text-align: center;
+justify-content: center;
+display: flex;
+margin-right: auto;
+}
+
+.form1{
+  text-align: -webkit-center;
+  td, th { border: 2px #808080 solid; }
+}
+
+.hope{
+  text-align: -webkit-center;
+  td, th { border: 2px #808080 solid; }
+}
+
+
+.th{
+  text-align: center;
+}
+
+.box6{
+  text-align: center;
+}
+.CONTACT{
+  margin-top: 120px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.Setsu{
+  margin-bottom: 30px;
+}
+
+.miss{margin-bottom: 70px;
+}
+
+.shop1{display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.shopall{display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table{
+  margin: 50px auto;
+}
+
+
+
+
+.hope{
+  justify-content: center;
+}
+
+.footer{
+  text-align: center;
+  background-color: #707070;
+  color: aliceblue;
+}

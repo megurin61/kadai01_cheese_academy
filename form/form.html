@@ -1,0 +1,134 @@
+<html lang="ja">
+<head>
+	<title>アンケート</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<form class="form-horizontal">
+					<div class="page-header">
+						<!-- アンケートフォームのタイトルを決めます。 -->
+						<h1><small>learningbox/QuizGeneratorに関するアンケート</small></h1>
+					</div>
+					<div>
+						<p>こちらにこのアンケートに関する説明文を記載してください。</p>
+					</div>
+					<section class="panel panel-default">
+						<div class="panel-heading">
+							<!-- サブタイトルを記載してください -->
+							learningboxに関するアンケート調査
+						</div>
+							<!--  -->
+						<div class="panel-body">
+							<!-- インプット（１行記入）は下記ソースをご活用ください -->
+								<!-- input start-->
+								<article class="form-group">
+									<label class="col-sm-2 control-label" for="value_point">使い勝手はいかがですか？</label>
+									<div class="col-sm-10">
+	  									<input type="text" class="form-control" id="" name="使い勝手はいかがですか？" data-required="true">
+									</div>
+								</article>
+								<!-- input end-->
+
+							<!-- プルダウン形式をご活用の場合は、下記ソースをご活用ください -->
+								<!-- pulldown start-->
+								<article class="form-group">
+									<label class="col-sm-2 control-label" for="lastmessage_point">やりたいことが実現できそうですか？</label>
+									<div class="col-sm-10">
+										<select class="form-control" name="やりたいことが実現できそうですか？" data-required="true">
+											<option value="">--選択--</option>
+											<option value="できそう">できそう</option>
+											<option value="まだわからない">まだわからない</option>
+											<option value="できない">できない</option>
+										</select>
+									</div>
+								</article>
+								<!-- pulldown start-->
+
+							<!-- チェックボックス形式をご活用の場合は、下記ソースをご活用ください -->
+								<!-- checkbox start-->
+								<article class="form-group">
+									<label class="col-sm-2 control-label" for="どの教材を使用しますか？">どの教材を使用しますか？</label>
+									<div class="col-sm-10">
+										<div class="checkbox">
+										<label>
+											<input type="checkbox" value="クイズ" name="どの教材を使用しますか？">クイズ</label>
+										</div>
+										<div class="checkbox">
+											<label><input type="checkbox" value="動画" name="どの教材を使用しますか？">動画</label>
+										</div>
+										<div class="checkbox">
+											<label><input type="checkbox" value="PDF教材" name="どの教材を使用しますか？">PDF教材</label>
+										</div>
+										<div class="checkbox">
+											<label><input type="checkbox" value="暗記カード" name="どの教材を使用しますか？">暗記カード</label>
+										</div>
+										<div class="checkbox">
+											<label><input type="checkbox" value="レポート" name="どの教材を使用しますか？">レポート</label>
+										</div>
+										<div class="checkbox">
+											<label><input type="checkbox" value="アンケート" name="どの教材を使用しますか？">アンケート</label>
+										</div>
+									</div>
+								</article>
+								<!-- checkbox end-->
+
+							<!-- ラジオボタン形式をご活用の場合は、下記ソースをご活用ください -->
+								<!-- radio start-->
+								<article class="form-group">
+									<label class="col-sm-2 control-label" for="どう活用されますか？">どう活用されますか？</label>
+									<div class="col-sm-10">
+										<div class="radio">
+											<label><input type="radio" name="どう活用されますか？" value="社内研修">社内研修</label>
+										</div>
+										<div class="radio">
+											<label><input type="radio" name="どう活用されますか？" value="検定試験">検定試験</label>
+										</div>
+										<div class="radio">
+											<label><input type="radio" name="どう活用されますか？" value="教材販売">教材販売</label>
+										</div>
+										<div class="radio">
+											<label><input type="radio" name="どう活用されますか？" value="学習塾">学習塾</label>
+										</div>
+										<div class="radio">
+											<label><input type="radio" name="どう活用されますか？" value="その他">その他</label>
+										</div>
+									</div>
+								</article>
+								<!-- radio end -->
+
+							<!-- インプット（複数行記入）をご活用の場合は、下記ソースをご活用ください -->
+								<!-- textarea start-->
+								<article class="form-group">
+									<label class="col-sm-2 control-label" for="textarea">こういった機能が欲しい等ありますか</label>
+									<div class="col-sm-10">
+										<textarea class="form-control" name="こういった機能が欲しい等ありますか" placeholder="コメント" data-required="true"></textarea>
+									</div>
+								</article>
+								<!-- textarea end-->
+						</div>
+					</section>
+
+					<!--  -->
+					<input type="hidden" name="__score__" value="100">
+
+					<!--  -->
+					<section class="panel panel-default">
+						<div class="panel-body">
+						<article>
+							<div class="col-sm-12">
+								<button type="button" id="submit" class="btn btn-primary btn-block btn-lg">送信</button>
+							</div>
+						</article>
+						</div>
+					</section>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
